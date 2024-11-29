@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="todo-list">
+    <h1>
+      task<span id="z-span">Z</span>
+    </h1>
+    <input type="text" id="task" placeholder="New task...">
+    <input type="datetime-local" id="task-time">
+    <div class="controls">
+      <button id="add-task">Add</button>
+      <img src="img/report.png" alt="report" id="report-icon" title="daily reporting">
+      <input type="color" id="color-picker">
+    </div>
+    <div id="progress">
+      <h2 id="task-header" class="hidden"></h2>
+      <span id="progress-bar-container" class="hidden">
+        <div id="allbar">
+          <div id="progress-bar"></div>
+          <span id="progress-text"></span>
+        </div>
+      </span>
+    </div>
+    <hr>
+    <hr id="bottom-hr">
+    <ul id="tasks"></ul>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Task Zone",
+  "version": "1.0",
+  "description": "A todo list extension that gives time-based notifications.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "img/todolist.png"
+  },
+  "icons": {
+    "16": "img/todolist.png",
+    "48": "img/todolist.png",
+    "128": "img/todolist.png"
+  }
+}

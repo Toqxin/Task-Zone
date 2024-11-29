@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Task Report</title>
+  <script src="libs/jspdf.umd.min.js"></script>
+  <script src="libs/jspdf.plugin.autotable.min.js"></script>
+  <script src="report.js"></script>
+  <link rel="stylesheet" href="report.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Report</h1>
+    <table id="task-table" border="1">
+      <thead>
+        <tr>
+          <th>Tasks</th>
+          <th>Dates</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button id="download-pdf">Download PDF</button>
+    <div id="pdf-container"></div>
+  </div>
+  <script src="libs/pdfobject.min.js"></script>
+  <script src="report.js"></script>
+</body>
+</html>
