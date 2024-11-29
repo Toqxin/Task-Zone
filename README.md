@@ -42,10 +42,6 @@ Task Zone requires the following permissions:
 
 [Check out Task Zone on the Chrome Web Store](https://chromewebstore.google.com/detail/task-zone/oekhjgjgjjdkhkeioligpchaaleafdnh)
 
-## Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
